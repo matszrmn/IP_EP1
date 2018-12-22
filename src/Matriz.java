@@ -1,4 +1,4 @@
-import java.io.File;
+﻿import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.Locale;
@@ -28,7 +28,7 @@ public class Matriz {
 			
 			while (sc.hasNextInt() && (i < 2)) {
 				dim[i++] = sc.nextInt();
-            }
+			}
 			
 			int contador = 0;
 			M = new double[dim[0]][dim[1]];
